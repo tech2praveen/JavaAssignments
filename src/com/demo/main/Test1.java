@@ -4,7 +4,7 @@ import com.demo.add.*;
 
 
 /*
- * we can use access public and protected methods of calculation class in different package subclass
+ * we can use access public and protected methods of calculation class in different package subclass.
  * 
  */
 
