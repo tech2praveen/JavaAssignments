@@ -1,4 +1,4 @@
-package com.demo.add;
+package com.demo.firstPackage;
 
 
 public class calculator{
@@ -75,3 +75,14 @@ class subClasscalc extends calculator{
 	}
 }
 
+class subClasscalc1{
+	subClasscalc sc=new subClasscalc();
+	/*
+	 * 
+	 * Here, we can use protected method by creating a object since it is in same package
+	 */
+	int a=sc.mulNumbers(10, 20);
+	
+	
+	
+}

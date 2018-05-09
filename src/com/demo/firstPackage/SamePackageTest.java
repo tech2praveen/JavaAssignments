@@ -1,4 +1,4 @@
-package com.demo.add;
+package com.demo.firstPackage;
 
 /*
  * In class display, we can access public,protected and default methods but not the private

@@ -1,6 +1,6 @@
-package com.demo.main;
+package com.demo.secondPackage;
 
-import com.demo.add.*;
+import com.demo.firstPackage.*;
 
 
 /*

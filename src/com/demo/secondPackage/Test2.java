@@ -1,6 +1,6 @@
-package com.demo.main;
+package com.demo.secondPackage;
 
-import com.demo.add.*;
+import com.demo.firstPackage.*;
 
 /*
  * In class display, we can access public and protected methods but not the private and default
