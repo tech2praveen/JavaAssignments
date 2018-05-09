@@ -45,15 +45,12 @@ public class SamePackageTest {
 		d.disp();
 		d1.disp1();
 		
-		/*
-		 
-		 * Cannot make a static reference to the 
-		 *non-static method addNumbers(int, int, int, int) from the class calculator
-		 *
-		 */
+		d.d=10;
+		d.c=90;
+		d.b=80;
+	//	d.a=10;  cannot access private in different class.
 		
-	//	System.out.println(addNumbers(10,20,30,40));
-	
+		
 		
 	}
 

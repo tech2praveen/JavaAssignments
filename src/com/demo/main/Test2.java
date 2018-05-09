@@ -44,15 +44,6 @@ public class Test2 extends calculator {
 		display d=new display();
 		d.disp();
 		
-		/*
-		 
-		 * Cannot make a static reference to the 
-		 *non-static method addNumbers(int, int, int, int) from the class calculator
-		 *
-		 */
-		
-	//	System.out.println(addNumbers(10,20,30,40));
-	
 		
 	}
 
