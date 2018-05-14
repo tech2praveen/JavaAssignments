@@ -1,0 +1,21 @@
+This is an analysis on access specifiers.
+
+Let's begin with understanding the structure of the java project that I have created.
+a) There are two packages com.demo.firstPackage and com.demo.SecondPackage.
+b) firstPackage consists of two java files calculator and SamePackageTest , SecondPackage consists of Test1 and Test2.
+c) calculator class have 4 methods with respective access specifiers public,private,protected and default. 
+
+1)Use of protected, public and default variables and methods are allowed in subclass.Private don't have access.
+
+2)protected variables and methods can only be accessed by subclasses in another package or any class with in the 
+  package of protected members class.protected specifier is not applied to class and interfaces.
+  
+3)private variables and methods which declared as private can be accessed within the same class to which they belong.
+  Using private specifier is used to achieve encapsulation which is used for hiding data.
+  
+4) Default if you don't declare any specifier,it will follow the default accessiblity level.Classes,Variables,methods can be default.
+By using default specifier we can access class ,method, or variable which belongs to same package,but not from outside this package.
+
+5) public Classes, methods, and variables which are declared as public can be accessed from any other class in the Java program ,
+   whether they are in same package or another package.
+

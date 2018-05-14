@@ -9,6 +9,7 @@ package com.demo.firstPackage;
 
 class display extends calculator{
 	
+	
 	void disp()
 	{
 		System.out.println(addNumbers(10,20,30,40));
@@ -27,7 +28,7 @@ class display extends calculator{
 
 
 class subClassdisp extends display
-{
+{	
 	void disp1()
 	{
 		System.out.println(addNumbers(10,20,30,40));

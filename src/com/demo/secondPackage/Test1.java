@@ -4,7 +4,7 @@ import com.demo.firstPackage.*;
 
 
 /*
- * we can use access public and protected methods of calculation class in different package subclass.
+ * we can access public and protected methods of calculation class in different package subclass.
  * 
  */
 
@@ -30,8 +30,9 @@ class t2 extends t1
 	
 	void display1()
 	{
-		System.out.println(mulNumbers(10,20));
 		System.out.println("from here");
+		System.out.println(mulNumbers(10,20));
+		
 		
 	}
 }
@@ -49,10 +50,11 @@ class t3 extends t2
 public class Test1{
 	public static void main(String[] args) {
 		calculator c=new calculator();
+	
 		System.out.println(c.addNumbers(10, 20, 30, 40));
-		//c.mulNumbers(10,20);     protected method
-		//c.addTwoNumbers(10,20);    Private method
-		//c.addThreeNumbers(10,20,30);  Default method
+	//	int a=c.mulNumbers(10,20);     protected method
+//		int b=c.addTwoNumbers(10,20);    Private method
+	//	int c=c.addThreeNumbers(10,20,30);  Default method
 		
 		
 	t3 ob=new t3();
